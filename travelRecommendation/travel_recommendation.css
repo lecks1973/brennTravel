@@ -9,7 +9,7 @@ body {
 }
 
 .navbar {
-    background-color: #333;
+    background-color: #0056b3;
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -38,7 +38,7 @@ body {
 }
 
 .navbar a:hover {
-    background-color: #575757;
+    background-color: #003d80;
 }
 
 .search-container {
@@ -60,7 +60,7 @@ body {
 
 .search-container button {
     padding: 6px 10px;
-    background-color: #4CAF50;
+    background-color: #004a99;
     color: white;
     border: none;
     border-radius: 4px;
@@ -68,7 +68,7 @@ body {
 }
 
 .search-container button:hover {
-    background-color: #45a049;
+    background-color: #003d80;
 }
 
 .disabled-link {
@@ -164,4 +164,11 @@ a {
   .content-box {
     width: 100%;
   }
+}
+
+.id-photo {
+    width: 150px;  /* Set the fixed width */
+    height: 150px; /* Set the fixed height */
+    object-fit: cover; /* Ensures the image fits within the box and avoids distortion */
+    border: 2px solid #ccc; /* Optional: add border to the image */  
 }
