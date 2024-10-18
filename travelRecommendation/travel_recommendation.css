@@ -172,3 +172,19 @@ a {
     object-fit: cover; /* Ensures the image fits within the box and avoids distortion */
     border: 2px solid #ccc; /* Optional: add border to the image */  
 }
+
+.member {
+    display: flex;
+    align-items: center; /* Align items vertically centered */
+    margin-bottom: 20px; /* Space between team members */
+}
+
+.id-photo {
+    width: 100px; /* Set a fixed width for the photo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between the photo and the text */
+}
+
+.member-info {
+    max-width: 400px; /* Limit width of the text container */
+}
